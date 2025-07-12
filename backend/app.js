@@ -17,6 +17,7 @@ dotenv.config({
   path: "./config/.env",
 });
 
+
 // Middleware
 app.use(express.json());
 app.use(cookieParser());
