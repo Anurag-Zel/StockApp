@@ -1,5 +1,5 @@
 const config = {
-  apiUrl: 'http://localhost:4000',
+  apiUrl: 'https://stockapp-v0r9.onrender.com',
   };
   
   export default config;
