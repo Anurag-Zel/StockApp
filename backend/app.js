@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
 // Cross-Origin Resource Sharing (CORS) configuration
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL,
+    origin: 'https://stock-app-lime-one.vercel.app',
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
   })
