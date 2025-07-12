@@ -9,8 +9,8 @@ const CompletedOrdersTable = () => {
     const fetchCompletedOrders = async () => {
       try {
         const completedOrderResponse = await axios.get(
-          // `${config.apiUrl}/orders/completed`
-          `http://localhost:4000/orders/completed`
+          `${config.apiUrl}/orders/completed`
+          // `http://localhost:4000/orders/completed`
         );
         setCompletedOrders(completedOrderResponse.data);
       } catch (error) {
